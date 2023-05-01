@@ -10,6 +10,7 @@ We will only evaluate the client side code and the criteria will be based mainly
 1. Good use of React
 2. Clean, maintainable & easy-to-read code
 3. Good architectural practices
+4. Stick to the design
 
 ## HOW TO START
 
@@ -19,7 +20,13 @@ We will only evaluate the client side code and the criteria will be based mainly
 
 ## NOT REQUIRED, BUT IMPRESSIVE
 
-- Adding Unit Testing
+- Using a framework
+- Adding Tests
+- Using Docker
+
+## Notes
+
+Feel free to modify this README to explain anything you consider relevant.
 
 ## SCREENSHOTS
 
@@ -40,4 +47,3 @@ If the searched username does exist: The searched user profile is displayed with
 If the searched username does not exist: An error is shown
 
 ![](https://github.com/Workfully-github/frontend-test/blob/main/images/Error-screen.png)
-
