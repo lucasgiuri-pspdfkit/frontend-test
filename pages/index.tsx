@@ -22,11 +22,11 @@ const Home: NextPage = () => {
   const [userData, setUserData] = useState<UserData | null>(null);
   const [repositories, setRepositories] = useState<RepositoriesData[] | []>([]);
 
-  const handleSubmit = async (e: Event) => {
+  const handleSubmit = async (e: React.MouseEvent<HTMLButtonElement>) => {
     e.preventDefault();
     setHasError(false);
-      setRepositories([]);
-      setUserData(null);
+    setRepositories([]);
+    setUserData(null);
     const user = await getUserData(value);
     if (user && user.id) {
       setUserData(user);

@@ -1,6 +1,6 @@
 type User = {
   avatar_url: string;
-  bio: null | string;
+  bio: string;
   blog: string;
   company: null | string;
   created_at: string;
@@ -17,7 +17,7 @@ type User = {
   id: number;
   location: null | string;
   login: string;
-  name: null | string;
+  name: string;
   node_id: string;
   organizations_url: string;
   public_gists: number;
@@ -167,7 +167,7 @@ export const filterRepositories = (
 // this function should return the repositories from the github api
 export const getRepositories = async (
   username: string
-): Promise<RepositoriesData | []> => {
+): Promise<RepositoriesData[] | []> => {
   const repositories = await fetch(
     `https://api.github.com/users/${username}/repos`
   )
@@ -177,7 +177,7 @@ export const getRepositories = async (
       console.log(error);
     });
 
-  let repos = [];
+  let repos: [] | RepositoriesData[] = [];
 
   if (repositories && repositories.length > 0) {
     repos = filterRepositories(repositories);
@@ -197,7 +197,7 @@ export const getUserData = async (
       console.log(error);
     });
 
-  let userData = null;
+  let userData: null | UserData = null;
   if (user && user.id) {
     userData = filterUserData(user);
   }

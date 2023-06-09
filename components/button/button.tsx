@@ -8,7 +8,7 @@ import React from "react";
 type ButtonProps = {
   text: string;
   type?: "button" | "submit" | "reset";
-  onClick: (e: Event) => void;
+  onClick: (e: React.MouseEvent<HTMLButtonElement>) => void;
 };
 
 const Button = ({ text, type, onClick }: ButtonProps) => {
