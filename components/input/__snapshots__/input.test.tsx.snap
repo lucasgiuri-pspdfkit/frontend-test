@@ -1,0 +1,45 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Input Snapshot with empty placeholder and empty value 1`] = `
+<div>
+  <input
+    class="w-full px-4 py-2 border border-gray-100 focus:ring-0 outline-gray-200"
+    placeholder=""
+    type="text"
+    value=""
+  />
+</div>
+`;
+
+exports[`Input Snapshot with type email 1`] = `
+<div>
+  <input
+    class="w-full px-4 py-2 border border-gray-100 focus:ring-0 outline-gray-200"
+    placeholder="placeholder test"
+    type="email"
+    value="value test"
+  />
+</div>
+`;
+
+exports[`Input Snapshot with type password 1`] = `
+<div>
+  <input
+    class="w-full px-4 py-2 border border-gray-100 focus:ring-0 outline-gray-200"
+    placeholder="placeholder test"
+    type="password"
+    value="value test"
+  />
+</div>
+`;
+
+exports[`Input Snapshot with type text 1`] = `
+<div>
+  <input
+    class="w-full px-4 py-2 border border-gray-100 focus:ring-0 outline-gray-200"
+    placeholder="placeholder test"
+    type="text"
+    value="value test"
+  />
+</div>
+`;

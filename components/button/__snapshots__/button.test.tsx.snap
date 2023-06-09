@@ -1,0 +1,34 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Button Snapshot with type button 1`] = `
+<div>
+  <button
+    class="px-4 py-2 font-semibold bg-gray-50 text-gray-450 rounded"
+    type="button"
+  >
+    test
+  </button>
+</div>
+`;
+
+exports[`Button Snapshot with type reset 1`] = `
+<div>
+  <button
+    class="px-4 py-2 font-semibold bg-gray-50 text-gray-450 rounded"
+    type="reset"
+  >
+    test
+  </button>
+</div>
+`;
+
+exports[`Button Snapshot with type submit 1`] = `
+<div>
+  <button
+    class="px-4 py-2 font-semibold bg-gray-50 text-gray-450 rounded"
+    type="submit"
+  >
+    test
+  </button>
+</div>
+`;

@@ -1,0 +1,41 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Text Snapshot with type italic 1`] = `
+<div>
+  <span
+    class="italic font-semibold text-gray-400 text-sm"
+  >
+    test
+  </span>
+</div>
+`;
+
+exports[`Text Snapshot with type subtitle 1`] = `
+<div>
+  <h3
+    class="text-lg font-bold text-gray-450"
+  >
+    test
+  </h3>
+</div>
+`;
+
+exports[`Text Snapshot with type text 1`] = `
+<div>
+  <span
+    class=" font-semibold text-gray-400 text-sm"
+  >
+    test
+  </span>
+</div>
+`;
+
+exports[`Text Snapshot with type title 1`] = `
+<div>
+  <h2
+    class="text-3xl font-bold text-gray-500"
+  >
+    test
+  </h2>
+</div>
+`;
